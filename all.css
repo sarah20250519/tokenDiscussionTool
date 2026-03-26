@@ -123,6 +123,26 @@ h1 span {
   background: #4ade8020;
 }
 
+.save-btn {
+  border-color: #fbbf24;
+  color: #fbbf24;
+}
+
+.save-btn:hover {
+  background: #fbbf2420;
+}
+
+.save-btn.saved {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+#saveStatus {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-family: 'JetBrains Mono', monospace;
+}
+
 /* TABLE */
 .table-wrap {
   border: 1px solid var(--border);
